@@ -1,0 +1,149 @@
+*{
+  margin:0;
+  padding:0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style: none;
+  scroll-behavior: smooth;
+  font-family:'Times New Roman', Times, serif;
+}
+
+/*nav bar start*/
+#navbar{
+  background-color: white;
+  
+}
+#logo{
+  font-size: 36px;
+  font-weight: 700;
+  color: black;
+  text-shadow: 0px 1px 1px black;
+  margin-bottom: 5px;
+}
+#logo span{
+  color: orangered;
+  
+}
+
+.navbar-toggler span{
+  color: orangered;
+} 
+.navbar nav{
+  margin-left: 20px;
+}
+.nav-item .nav-link{
+  font-size: 16px;
+  font-weight: 550;
+  color: black;
+  letter-spacing: 1px;
+  border-radius: 3px;
+  transition: 0.5s ease;
+}
+.nav-item .nav-link:hover{
+  background:orangered ;
+  color: white;
+}
+.navbar form button{
+  background:orangered ;
+  color: white;
+  border: none;
+}
+/* nav bar end */
+
+/* Home section start */
+.home{
+  height: 95vh;
+  width: 100%;
+  background-image:url(travel2.jpeg);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.home .content{
+  text-align: center;
+  padding-top: 50px;
+}
+.home .content h5{
+  color: white;
+  font-size: 38px;
+  font-weight: 500;
+  text-shadow: 0px 5px 2px black;
+}
+.home .content h1{
+  color:white;
+  font-size: 70px;
+  font-weight: 550;
+  text-shadow: 0px  5px 2px black;
+  margin-top: 5px;
+}
+.changecontent::after{
+  content: ' ';
+  color: rgba(248, 47, 7, 0.879);
+  text-shadow: 0px 5px 2px black;
+  animation: changetxt 10s infinite linear;
+}
+@keyframes changetxt {
+  0%{content: "FRANCE";}
+  10%{content: "SPAIN";}
+  20%{content: "UNITED STATES";}
+  30%{content: "CHINA";}
+  40%{content: "INDIA";}
+  50%{content: "PAKISTAN";}
+  60%{content: "ITALY";}
+  70%{content: "TURKEY";}
+  80%{content: "MEXICO";}
+  90%{content: "GERMANY";}
+  100%{content: "UNITED KINGDOM";}
+}
+.home .content p{
+  color:black;
+  font-size: 15px;
+  font-weight: 600;
+  text-shadow: 0px 1px 1px black;
+  margin-bottom: 30px;
+  margin-top: 5px;
+}
+.home .content a{
+  padding: 10px;
+  background-color: rgb(246, 7, 7);
+  color: white;
+  letter-spacing: 2px;
+  font-weight: 550;
+  border-radius: 5px;
+  text-decoration: none;
+  transition: 0.5s;
+}
+
+
+/* Home section end */
+@media screen and (max-width:420px){
+  .home{
+    width:20px;
+  }
+  
+}
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
